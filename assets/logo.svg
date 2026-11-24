@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Semper Oberschule Logo">
-  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f766e"/>
-  <path d="M32 12 L52 22 L32 32 L12 22 Z" fill="#ffffff"/>
-  <path d="M20 27 v9 c0 5 5.4 8 12 8 s12-3 12-8 v-9 l-4 2 v7 c0 3-3.6 5-8 5 s-8-2-8-5 v-7 Z" fill="#f59e0b"/>
-  <circle cx="32" cy="47" r="2.6" fill="#ffffff"/>
-</svg>
