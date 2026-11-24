@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anmeldung – Semper Oberschule Dresden</title>
+  <meta name="description" content="Schülerin oder Schüler an der Semper Oberschule Dresden anmelden: Anmeldeprozess in vier Schritten, Online-Formular und persönliche Beratung.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/logo.svg" alt="" width="44" height="44">
+        <span>Semper Oberschule<small>Dresden</small></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-links" id="nav">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="fuer-eltern.html">Für Eltern</a></li>
+          <li><a href="schueler.html">Schüler*innen</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li class="nav-cta"><a class="btn btn--primary" href="anmeldung.html" aria-current="page">Jetzt anmelden</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="kicker">Einschreibung</span>
+        <h1>Jetzt Platz an der Semper Oberschule sichern</h1>
+        <p>Die Anmeldung ist unkompliziert – und beginnt am besten mit einem persönlichen Gespräch. Wir vergeben die Plätze in der Reihenfolge des Eingangs.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="reveal">
+          <span class="kicker">So läuft's</span>
+          <h2>Anmeldung in vier Schritten</h2>
+          <ol class="timeline">
+            <li>
+              <strong>1. Kennenlernen</strong>
+              <p>Rufen Sie an oder schreiben Sie uns: Wir vereinbaren einen Rundgang oder ein Beratungsgespräch – Ihr Kind ist herzlich eingeladen.</p>
+            </li>
+            <li>
+              <strong>2. Schnuppern &amp; Prüfen</strong>
+              <p>Möglichkeit zu Hospitation oder Schnuppertagen. Wir prüfen gemeinsam, ob unsere Oberschule und Ihr Kind zueinander passen.</p>
+            </li>
+            <li>
+              <strong>3. Anmelden</strong>
+              <p>Anmeldeformular ausfüllen und mit den erforderlichen Unterlagen (Zeugnis, Anmeldebestätigung der abgebenden Schule) abgeben.</p>
+            </li>
+            <li>
+              <strong>4. Willkommen!</strong>
+              <p>Sie erhalten die Aufnahmebestätigung mit allen Informationen zum Schulstart – Klassenzuteilung, Materialliste, erste-Tag-Plan.</p>
+            </li>
+          </ol>
+          <div class="notice">
+            <strong>Hinweis:</strong> Formular des sächsischen Kultusministeriums: Für den Wechsel an eine Ersatzschule ist zusätzlich die Abmeldebestätigung der bisherigen Schule erforderlich. Bitte hier die konkreten Unterlagen ergänzen.
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="form-card">
+            <h2 style="font-size:1.5rem">Anmeldung vormerken</h2>
+            <p class="form-note">Wir melden uns innerhalb von zwei Werktagen zurück. (Demo-Formular – vor Veröffentlichung an einen Formulardienst oder E-Mail-Empfang anbinden.)</p>
+            <form data-demo-form novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="vorname">Vorname des Kindes *</label>
+                  <input id="vorname" name="vorname" type="text" required autocomplete="given-name">
+                </div>
+                <div class="field">
+                  <label for="nachname">Nachname des Kindes *</label>
+                  <input id="nachname" name="nachname" type="text" required autocomplete="family-name">
+                </div>
+                <div class="field">
+                  <label for="geburtsdatum">Geburtsdatum *</label>
+                  <input id="geburtsdatum" name="geburtsdatum" type="date" required>
+                </div>
+                <div class="field">
+                  <label for="klassenstufe">Gewünschte Klassenstufe *</label>
+                  <select id="klassenstufe" name="klassenstufe" required>
+                    <option value="">Bitte wählen …</option>
+                    <option>5. Klasse</option>
+                    <option>6. Klasse</option>
+                    <option>7. Klasse</option>
+                    <option>8. Klasse</option>
+                    <option>9. Klasse</option>
+                    <option>10. Klasse</option>
+                  </select>
+                </div>
+                <div class="field full">
+                  <label for="elternteil">Name des Erziehungsberechtigten *</label>
+                  <input id="elternteil" name="elternteil" type="text" required autocomplete="name">
+                </div>
+                <div class="field">
+                  <label for="email">E-Mail *</label>
+                  <input id="email" name="email" type="email" required autocomplete="email">
+                </div>
+                <div class="field">
+                  <label for="telefon">Telefon</label>
+                  <input id="telefon" name="telefon" type="tel" autocomplete="tel">
+                </div>
+                <div class="field full">
+                  <label for="meldung">Was möchten Sie uns mitteilen?</label>
+                  <textarea id="meldung" name="meldung" placeholder="z. B. Wunschtermin für ein Beratungsgespräch, Vorerfahrungen, Fragen …"></textarea>
+                </div>
+                <div class="field full">
+                  <label class="checkbox">
+                    <input type="checkbox" required>
+                    <span>Ich stimme zu, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. *</span>
+                  </label>
+                </div>
+              </div>
+              <p style="margin-top:1.4rem"><button class="btn btn--primary btn--lg" type="submit" style="width:100%">Anmeldung vormerken</button></p>
+              <p class="form-note">* Pflichtfelder. Ihre Daten werden vertraulich behandelt und nicht an Dritte weitergegeben.</p>
+              <div class="form-success" role="status">
+                ✓ Vielen Dank! Ihre Vormerkung ist eingegangen – wir melden uns innerhalb von zwei Werktagen.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container center">
+        <span class="kicker">Termine</span>
+        <h2>Tage der offenen Tür &amp; Schnuppertage</h2>
+        <p class="lead">Erleben Sie die Schule live: Unterricht besuchen, mit Schülern sprechen, Sozialarbeiter fragen.</p>
+        <div class="grid grid--3" style="margin-top:2.5rem">
+          <div class="card reveal">
+            <p class="post-meta">Tag der offenen Tür</p>
+            <h3>Samstag, 24. Januar 2026</h3>
+            <p>10–14 Uhr · Rundgänge, informs Infostände, Auftritte von Band und Theater-AG.</p>
+          </div>
+          <div class="card reveal">
+            <p class="post-meta">Schnuppertag</p>
+            <h3>Februar &amp; März 2026</h3>
+            <p>Nach Absprache · Ihr Kind begleitet eine Klasse für einen Tag.</p>
+          </div>
+          <div class="card reveal">
+            <p class="post-meta">Beratungsgespräche</p>
+            <h3>Jederzeit nach Vereinbarung</h3>
+            <p>Telefonisch oder persönlich beim Sekretariat – auch während des Schuljahres.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="" width="36" height="36">
+          Semper Oberschule Dresden
+        </div>
+        <p>Eine private Oberschule in Dresden – mit MINT-Schwerpunkt, Kunst, Musik und Theater, getragen von Ideen und Tatendrang unserer Schülerinnen und Schüler.</p>
+        <p style="font-size:.85rem; color:#6f8f8d">Platzhalter: Schulstraße 1, 01067 Dresden</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="fuer-eltern.html">Für Eltern</a></li>
+          <li><a href="schueler.html">Schüler*innen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Anmeldung</h4>
+        <ul>
+          <li><a href="anmeldung.html">Anmeldeprozess</a></li>
+          <li><a href="anmeldung.html">Anmeldeformular</a></li>
+          <li><a href="fuer-eltern.html">FAQ für Eltern</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Sekretariat: Mo–Fr 8–15 Uhr</li>
+          <li>☎ <a href="tel:+490000000000">00000 000000</a> (Platzhalter)</li>
+          <li>✉ <a href="mailto:info@semper-oberschule.example">info@semper-oberschule.example</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year>2025</span> Semper Oberschule Dresden</span>
+      <span><a href="#">Impressum</a> · <a href="#">Datenschutz</a></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
