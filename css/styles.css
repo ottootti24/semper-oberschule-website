@@ -211,7 +211,7 @@ p { margin: 0 0 1em; }
   overflow: hidden;
   background:
     linear-gradient(100deg, rgba(7, 45, 48, .94) 0%, rgba(11, 59, 63, .78) 42%, rgba(11, 59, 63, .30) 75%, rgba(11, 59, 63, .18) 100%),
-    url('assets/img/hero-kinder.jpg') right center / cover no-repeat,
+    url('../assets/img/hero-kinder.jpg') right center / cover no-repeat,
     var(--primary-dark);
   color: #ffffff;
   padding: 7rem 0 7.5rem;
