@@ -305,6 +305,17 @@ p { margin: 0 0 1em; }
 .card--mint { background: #ecfdf5; }
 .card--pinkish { background: #fff1f4; }
 
+.card__img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  border: 1.5px solid var(--line);
+  margin-bottom: 1rem;
+}
+.card .chip { margin-bottom: .8rem; }
+
 /* ---------- Schulalltag-Timeline ---------- */
 
 .dayline { list-style: none; margin: 0; padding: 0; position: relative; }
@@ -336,9 +347,6 @@ p { margin: 0 0 1em; }
 .dayline strong { display: block; }
 .dayline p { margin: 0; color: var(--ink-soft); font-size: .97rem; }
 
-.dayline--dates li { padding-left: 9.8rem; }
-.dayline--dates::before { left: 7.6rem; }
-.dayline--dates .time { font-size: .8rem; }
 
 /* ---------- Blog-Karten ---------- */
 
@@ -526,8 +534,8 @@ p { margin: 0 0 1em; }
   .nav-links a { padding: .8rem .5rem; font-size: 1.05rem; }
   .grid--3 { grid-template-columns: 1fr; }
   .snap-strip { grid-template-columns: 1fr; }
-  .dayline li, .dayline--dates li { padding-left: 0; padding-top: 2.6rem; }
-  .dayline::before, .dayline--dates::before { display: none; }
+  .dayline li { padding-left: 0; padding-top: 2.6rem; }
+  .dayline::before { display: none; }
   .dayline .time { position: static; display: inline-block; margin-bottom: .5rem; }
   .section { padding: 3rem 0; }
   .hero { padding: 3rem 0; }
