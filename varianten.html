@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website-Varianten wählen – Semper Oberschule Dresden</title>
+  <meta name="description" content="Zwei Blickwinkel auf die Semper Oberschule Dresden: die offizielle Schul-Website für Eltern und die selbst gestaltete Schüler-Website mit dem echten Schulalltag.">
+  <link rel="icon" type="image/png" href="assets/img/semper-logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .choose-hero { background: linear-gradient(150deg, #0b3b3f, #115e59); color: #fff; padding: 4.5rem 0 3.5rem; text-align: center; }
+    .choose-hero p { color: #ccfbf1; max-width: 42rem; margin: 0 auto; }
+    .choose-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+    .choose-card {
+      display: block;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      text-decoration: none;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .choose-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+    .choose-card img { width: 100%; aspect-ratio: 16 / 8; object-fit: cover; }
+    .choose-card__body { padding: 1.8rem; }
+    .choose-card__tag {
+      display: inline-block;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: .3rem .8rem;
+      border-radius: 999px;
+      margin-bottom: .8rem;
+    }
+    .choose-card__tag--official { background: var(--primary-light); color: var(--primary-dark); }
+    .choose-card__tag--students { background: #fef3c7; color: var(--accent-dark); }
+    .choose-card h2 { margin-bottom: .4rem; }
+    .choose-card p { color: var(--ink-soft); margin-bottom: 1.2rem; font-size: .98rem; }
+    .choose-card .btn { pointer-events: none; }
+    @media (max-width: 800px) { .choose-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/semper-logo.png" alt="Semper Oberschule Logo" width="44" height="44">
+        <span>Semper Oberschule Dresden<small>Website-Varianten</small></span>
+      </a>
+      <a class="btn btn--primary nav-cta" href="anmeldung.html">Anmeldung</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="choose-hero">
+      <div class="container">
+        <span class="kicker">Zwei Blickwinkel, eine Schule</span>
+        <h1>Welche Website möchtest du sehen?</h1>
+        <p>Dieselbe Schule, zwei Perspektiven: die offizielle Übersicht für Eltern und Interessierte – und die selbst gestaltete Schüler-Website mit dem echten Schulalltag. Beim Klick wechselst du die Variante.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="choose-grid reveal">
+          <a class="choose-card" href="index.html">
+            <img src="assets/img/schulhaus.jpg" alt="Das historische Schulhaus der Semper Oberschule">
+            <div class="choose-card__body">
+              <span class="choose-card__tag choose-card__tag--official">Variante 1 · Offiziell</span>
+              <h2>Schul-Website für Eltern</h2>
+              <p>Alles Wichtige auf einen Blick: Profil mit MINT, Kunst, Musik und Theater, Ganztag, Kosten, Anmeldeprozess, Termine und Kontakt – gepflegt von der Schule.</p>
+              <span class="btn btn--primary">Zur Schul-Website</span>
+            </div>
+          </a>
+          <a class="choose-card" href="schueler-version/index.html">
+            <img src="assets/img/social-2.jpg" alt="Schülerinnen und Schüler bei gemeinsamer Arbeit">
+            <div class="choose-card__body">
+              <span class="choose-card__tag choose-card__tag--students">Variante 2 · Von Schülern</span>
+              <h2>Schüler-Website</h2>
+              <p>Schulalltag aus unserer Sicht: Blog, AGs, Feste und ehrliche Antworten für Eltern – geschrieben und verwaltet von Schülern der Semper Oberschule.</p>
+              <span class="btn btn--accent">Zur Schüler-Website</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>© <span data-year>2025</span> Semper Oberschule Dresden</span>
+      <span><a href="https://semper-schulen.de/impressum/">Impressum</a> · <a href="https://semper-schulen.de/datenschutz/">Datenschutz</a></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
