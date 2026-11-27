@@ -10,7 +10,7 @@
   <style>
     .choose-hero { background: linear-gradient(150deg, #0b3b3f, #115e59); color: #fff; padding: 4.5rem 0 3.5rem; text-align: center; }
     .choose-hero p { color: #ccfbf1; max-width: 42rem; margin: 0 auto; }
-    .choose-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+    .choose-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; }
     .choose-card {
       display: block;
       background: #fff;
@@ -39,7 +39,7 @@
     .choose-card h2 { margin-bottom: .4rem; }
     .choose-card p { color: var(--ink-soft); margin-bottom: 1.2rem; font-size: .98rem; }
     .choose-card .btn { pointer-events: none; }
-    @media (max-width: 800px) { .choose-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 980px) { .choose-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -60,7 +60,7 @@
       <div class="container">
         <span class="kicker">Zwei Blickwinkel, eine Schule</span>
         <h1>Welche Website möchtest du sehen?</h1>
-        <p>Dieselbe Schule, zwei Perspektiven: die offizielle Übersicht für Eltern und Interessierte – und die selbst gestaltete Schüler-Website mit dem echten Schulalltag. Beim Klick wechselst du die Variante.</p>
+        <p>Dieselbe Schule, drei Perspektiven: die offizielle Übersicht für Eltern und Interessierte, die Schüler-Website mit dem echten Schulalltag – und alles als Comic-Edition. Beim Klick wechselst du die Variante.</p>
       </div>
     </section>
 
@@ -74,6 +74,15 @@
               <h2>Schul-Website für Eltern</h2>
               <p>Alles Wichtige auf einen Blick: Profil mit MINT, Kunst, Musik und Theater, Ganztag, Kosten, Anmeldeprozess, Termine und Kontakt – gepflegt von der Schule.</p>
               <span class="btn btn--primary">Zur Schul-Website</span>
+            </div>
+          </a>
+          <a class="choose-card" href="comic-version/index.html">
+            <img src="assets/img/comic-hero.jpg" alt="Comic-Illustration: Schüler vor dem Schulgebäude">
+            <div class="choose-card__body">
+              <span class="choose-card__tag choose-card__tag--students">Variante 3 · Comic</span>
+              <h2>Comic-Edition</h2>
+              <p>Schule als Bildergeschichte: dicke Konturen, Sprechblasen und POW!-Momente – der Schulalltag als Comic, gezeichnet von Schülern.</p>
+              <span class="btn btn--accent">Zur Comic-Edition</span>
             </div>
           </a>
           <a class="choose-card" href="schueler-version/index.html">
