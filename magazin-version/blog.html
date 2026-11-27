@@ -54,61 +54,77 @@
         <span class="kicker">Hinweis</span>
         <p class="lead" style="max-width:48rem">Die ersten sechs Beiträge sind <strong>Beispiele</strong> – sie zeigen, wie das Magazin aussehen wird. Ab dem nächsten Schuljahr schreiben unsere Schüler hier selbst, über echte Ereignisse aus ihrem Schulalltag.</p>
       </div>
+      <div class="container reveal">
+        <div class="tag-filter" data-tag-filter role="group" aria-label="Artikel nach Thema filtern">
+          <button data-tag="alle" aria-pressed="true">Alle</button>
+          <button data-tag="mint" aria-pressed="false">MINT</button>
+          <button data-tag="buehne" aria-pressed="false">Bühne</button>
+          <button data-tag="musik" aria-pressed="false">Musik</button>
+          <button data-tag="austausch" aria-pressed="false">Austausch</button>
+          <button data-tag="alltag" aria-pressed="false">Alltag</button>
+        </div>
+      </div>
       <div class="container grid grid--3 reveal" style="margin-top:2rem">
-        <article class="story">
+        <a class="story story--link" href="artikel/robotik.html" data-tags="mint">
           <img src="../assets/img/thumb-robotik.jpg" alt="Robotik-AG mit Roboter" loading="lazy">
           <div class="story__body">
             <span class="kicker">MINT</span>
             <h3>Roboter „Klaus“ gewinnt Wettbewerb</h3>
             <p>Zwei Monate Schraubarbeit, ein Kabel zu viel – und am Ende der erste Platz. Die Geschichte hinter dem Pokal.</p>
             <span class="byline">Von Jonas, 9a</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
-        <article class="story">
+        </a>
+        <a class="story story--link" href="artikel/theater.html" data-tags="buehne">
           <img src="../assets/img/thumb-theater.jpg" alt="Theater-AG bei der Probe" loading="lazy">
           <div class="story__body">
             <span class="kicker">Bühne</span>
             <h3>Probenchaos und Gänsehaut</h3>
             <p>Hinter den Kulissen der Theater-AG: vergessene Requisiten, stille Helden, große Momente.</p>
             <span class="byline">Von Malou, 8b</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
-        <article class="story">
+        </a>
+        <a class="story story--link" href="artikel/band.html" data-tags="musik">
           <img src="../assets/img/thumb-band.jpg" alt="Schulband bei der Probe" loading="lazy">
           <div class="story__body">
             <span class="kicker">Musik</span>
             <h3>So klingt unsere Schule</h3>
             <p>Die Schulband probt im Musikraum – und man hört sie bis auf den Schulhof. Ein kleiner Mitschnitt.</p>
             <span class="byline">Von Elif, 9b</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
-        <article class="story">
+        </a>
+        <a class="story story--link" href="artikel/chemie.html" data-tags="mint">
           <img src="../assets/img/chemie.jpg" alt="Chemie-Experiment im Fachkabinett" loading="lazy">
           <div class="story__body">
             <span class="kicker">Chemie</span>
             <h3>Der Tag, an dem unser Versuch rauchte</h3>
             <p>Kein Grund zur Panik – aber ein Grund, im Chemie-Kabinett immer die Sicherheitsbrille zu tragen. Eine kleine Chronik.</p>
             <span class="byline">Von Ben, 8a</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
-        <article class="story">
+        </a>
+        <a class="story story--link" href="artikel/italien.html" data-tags="austausch">
           <img src="../assets/img/term-italien.jpg" alt="Impression vom Italien-Austausch" loading="lazy">
           <div class="story__body">
             <span class="kicker">Austausch</span>
             <h3>Zwei Wochen Italien, ein Kopf voller Eindrücke</h3>
             <p>Unser Italien-Austausch: neue Freunde, anderes Essen, dieselbe Sprache der Nervosität vor der ersten Stunde.</p>
             <span class="byline">Von Sara, 9a</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
-        <article class="story">
+        </a>
+        <a class="story story--link" href="artikel/pausenhof.html" data-tags="alltag">
           <img src="../assets/img/schulhof-2.jpg" alt="Schüler auf dem Schulhof" loading="lazy">
           <div class="story__body">
             <span class="kicker">Alltag</span>
             <h3>Pausenhof-Chroniken, Folge 1</h3>
             <p>Warum der Fußballplatz auf unserem Hof umkämpfter ist als jeder Ligasonntag – und wer ihn wirklich gewinnt.</p>
             <span class="byline">Von Tim, 8c</span>
+            <span class="story__more">Weiterlesen →</span>
           </div>
-        </article>
+        </a>
       </div>
     </section>
 
